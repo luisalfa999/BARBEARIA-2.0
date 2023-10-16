@@ -1,10 +1,17 @@
 header{
     background: #BBBBBB;
+    padding: 20px;
 }
 
 nav li{
     display: inline;
     margin:0 0 0 15px;
+}
+
+.caixa{
+    width: 940px;
+    position: relative;
+    margin: 0 auto;
 }
 
 nav a {
@@ -13,4 +20,16 @@ nav a {
     font-weight: bold;
     font-size: 22px;
     text-decoration: none;
+}
+
+nav{
+    position:absolute;
+    top: 110px;
+    right: 0;
+}
+    
+.produtos{
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px 0;
 }
